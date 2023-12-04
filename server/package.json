@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.5.1",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "server":"nodemon server.js",
+    "client": "cd ../client && npm start",
+    "dev" : "nodemon server.js",
+    "build" : "npm i"
+  },
+  "name": "expanse-management-system",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
